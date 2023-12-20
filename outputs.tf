@@ -19,7 +19,7 @@ output "network_manager_name" {
 }
 
 output "network_manager_scope" {
-  description = "The name of the Azure Network Manager."
+  description = "The scope of the Azure Network Manager."
   value       = azurerm_network_manager.avnm.scope
 }
 
