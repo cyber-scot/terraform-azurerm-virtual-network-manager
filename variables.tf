@@ -1,20 +1,3 @@
-variable "connectivity_config" {
-  description = "A list of connectivity configuration"
-  type = list(object({
-    name                  = optional(string)
-    connectivity_topology = optional(string)
-    applies_to_group = optional(list(object({
-      group_connectivity  = optional(string)
-      network_group_id    = optional(string)
-      global_mesh_enabled = optional(bool)
-    })))
-    hub = optional(list(object({
-      resource_id   = optional(string)
-      resource_type = optional(string, "Microsoft.Network/virtualNetworks")
-    })))
-  }))
-}
-
 variable "description" {
   description = "The description attached to AVNM"
   type        = string
@@ -59,5 +42,4 @@ variable "scope_accesses" {
 variable "tags" {
   description = "A map of tags to add to all resources."
   type        = map(string)
-  default     = {}
 }
