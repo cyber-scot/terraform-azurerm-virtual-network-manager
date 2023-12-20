@@ -60,4 +60,11 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_network_group_ids"></a> [network\_group\_ids](#output\_network\_group\_ids) | A map of network group names to their respective IDs. |
+| <a name="output_network_group_names"></a> [network\_group\_names](#output\_network\_group\_names) | The list of network group names. |
+| <a name="output_network_manager_id"></a> [network\_manager\_id](#output\_network\_manager\_id) | The ID of the Azure Network Manager. |
+| <a name="output_network_manager_name"></a> [network\_manager\_name](#output\_network\_manager\_name) | The name of the Azure Network Manager. |
+| <a name="output_network_manager_scope"></a> [network\_manager\_scope](#output\_network\_manager\_scope) | The name of the Azure Network Manager. |
+| <a name="output_network_manager_tags"></a> [network\_manager\_tags](#output\_network\_manager\_tags) | The tags of the Azure Network Manager. |
